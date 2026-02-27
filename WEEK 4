@@ -1,7 +1,0 @@
-#include <fstream>
-
-void saveStudent(string name, string index) {
-    ofstream file("students.txt", ios::app);
-    file << name << "," << index << endl;
-    file.close();
-}
